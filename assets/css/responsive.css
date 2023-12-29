@@ -1,0 +1,45 @@
+
+@media (max-width: 600px) {
+    .hide-small {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .font-large {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 993px) {
+    #navbar {
+        display: flex;
+    }
+
+    #side-bar {
+        display: none;
+    }
+    
+    #content {
+        position: relative;
+        top: 84px;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+
+    .width-small-50 {
+        width: 50%;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 993px) {
+    #side-bar {
+        display: block!important;
+    }
+}
